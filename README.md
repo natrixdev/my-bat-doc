@@ -1,19 +1,19 @@
-<div align="center">
-  <h1>My batchfile documentation & script examples</h1>
+
+  # My batchfile documentation & script examples
   ![image](https://user-images.githubusercontent.com/88579983/187084796-267a9119-49b0-4399-be53-c304d8693d9b.png)
-  <p>
-      I'm going to explain how to learn the batch through examples that will increase in difficulty and complexity as you go through          this page.
-   </p>
-   <h1>This "documentation" has been produced entirely by <a href="https://github.com/natrixdev">natrix.</a></h1>
-   <br/>
-  </div>
-   <h2>Example #1 - Colors</h2>
-   <p>This example will show you how to change the colour of the text displayed in the console. I will also give you a list of available colours.</p>
+ 
+  I'm going to explain how to learn the batch through examples that will increase in difficulty and complexity as you go through         this page.
+ 
+ This "documentation" has been produced entirely by [natrix](https://github.com/natrixdev)
+
+
+## Example #1 - Colors
+This example will show you how to change the colour of the text displayed in the console. I will also give you a list of available colours.
  ```bat
 color a 
 pause 
 ```
-<p>For a greeen console<br>Available colours:</p>
+For a greeen console<br>Available colours:
 ```
     0 = Black 8 = Grey
     1 = Blue 9 = Light blue
