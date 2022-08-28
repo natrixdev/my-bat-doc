@@ -1,6 +1,3 @@
-# 🚧 MORE COMMING SOON 🚧
-### Stay tuned, next update very soon!
-  
   
   <div align="center">
   <h1> My batchfile documentation & script examples</h1>
@@ -192,3 +189,7 @@ IF EXIST "%file%" (
 
 ## Github 
 #### Thanks to github for offering amazing and free services!
+
+# 🚧 MORE COMMING SOON 🚧
+### Stay tuned, next update very soon!
+  
