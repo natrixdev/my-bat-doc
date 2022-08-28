@@ -16,7 +16,7 @@ This example will show you how to change the colour of the text displayed in the
 color a 
 pause 
 ```
-For a greeen console<br>Available colours:
+For a greeen console<br><br>Available colours:
 ```
     0 = Black 8 = Grey
     1 = Blue 9 = Light blue
@@ -26,4 +26,12 @@ For a greeen console<br>Available colours:
     5 = Violet D = Light Violet
     6 = Yellow E = Light yellow
     7 = White F = Bright White
+```
+
+## Example #2 - Interactive Ping 
+This script will ask you the address of the site to which you want to send a ping request. It will then make the request automatically.
+ ```bat
+set /p website=Insert website url: 
+ping %website%
+pause
 ```
