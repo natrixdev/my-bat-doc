@@ -35,3 +35,14 @@ set /p website=Insert website url:
 ping %website%
 pause
 ```
+
+## Example #3 - Simple survey 
+This script will ask you for your name, age and github link. Once this information is recorded it will display it in the console.
+ ```bat
+@echo off
+set /p name=Insert your name: 
+set /p age=Insert your age: 
+set /p githubpr=Insert your github profile url: 
+@echo Hi, %name%, who is %age%. Your github is : %githubpr%
+pause
+```
