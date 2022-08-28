@@ -2,7 +2,7 @@
   
   
   <div align="center">
-  # My batchfile documentation & script examples
+  <h1> My batchfile documentation & script examples</h1>
   
  
   I'm going to explain how to learn the batch through examples that will increase in difficulty and complexity as you go through         this page.
