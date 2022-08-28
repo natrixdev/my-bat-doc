@@ -3,7 +3,7 @@
   
   <div align="center">
   # My batchfile documentation & script examples
-  ![image](https://user-images.githubusercontent.com/88579983/187084796-267a9119-49b0-4399-be53-c304d8693d9b.png)
+  
  
   I'm going to explain how to learn the batch through examples that will increase in difficulty and complexity as you go through         this page.
  
