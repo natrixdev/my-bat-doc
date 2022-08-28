@@ -180,3 +180,15 @@ IF EXIST "%file%" (
    ECHO %PrinterName% printer does NOT exists
 )
 ```
+
+## Documentation 
+### By [natrix](https://github.com/natrixdev)
+
+## Credits 
+### Thanks to [tutorialspoint.com](https://tutorialspoint.com)
+
+## Written in
+### HTML / Written in:
+
+## Github 
+### Thanks to github for offering amazing and free services!
