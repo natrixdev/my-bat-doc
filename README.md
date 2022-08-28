@@ -182,13 +182,13 @@ IF EXIST "%file%" (
 ```
 
 ## Documentation 
-### By [natrix](https://github.com/natrixdev)
+#### By [natrix](https://github.com/natrixdev)
 
 ## Credits 
-### Thanks to [tutorialspoint.com](https://tutorialspoint.com)
+#### Thanks to [tutorialspoint.com](https://tutorialspoint.com)
 
 ## Written in
-### HTML / Written in:
+#### HTML / Markdown
 
 ## Github 
-### Thanks to github for offering amazing and free services!
+#### Thanks to github for offering amazing and free services!
