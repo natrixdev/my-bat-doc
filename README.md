@@ -85,4 +85,97 @@ set message=Hello World
 echo %message%
 ```
 
+## Example #8 - Date
+This command gets the system date.
+```bat
+@echo off 
+echo %DATE%
+```
+Example output: 
+```py
+Mon 12/28/2015
+```
+Also work with time:
+```bat
+@echo off 
+echo %TIME%
+```
 
+## Example #9 - Looping through Command Line Arguments
+The ‘for’ statement can also be used for checking command line arguments. The following example shows how the ‘for’ statement can be used to loop through the command line arguments.
+```bat
+@ECHO OFF 
+:Loop 
+
+IF "%1"=="" GOTO completed 
+FOR %%F IN (%1) DO echo %%F 
+SHIFT 
+GOTO Loop 
+:completed
+```
+
+## Example #10 - Command Line Printer Control
+As of Windows 2000, many, but not all, printer settings can be configured from Windows's command line using PRINTUI.DLL and RUNDLL32.EXE
+
+Where some of the options available are the following −
+
+- /dl − Delete local printer.
+
+- /dn − Delete network printer connection.
+
+- /dd − Delete printer driver.
+
+- /e − Display printing preferences.
+
+- /f[file] − Either inf file or output file.
+
+- /F[file] − Location of an INF file that the INF file specified with /f may depend on.
+
+- /ia − Install printer driver using inf file.
+
+- /id − Install printer driver using add printer driver wizard.
+
+- /if − Install printer using inf file.
+
+- /ii − Install printer using add printer wizard with an inf file.
+
+- /il − Install printer using add printer wizard.
+
+- /in − Add network printer connection.
+
+- /ip − Install printer using network printer installation wizard.
+
+- /k − Print test page to specified printer, cannot be combined with command when installing a printer.
+
+- /l[path] − Printer driver source path.
+
+- /m[model] − Printer driver model name.
+
+- /n[name] − Printer name.
+
+- /o − Display printer queue view.
+
+- /p − Display printer properties.
+
+- /Ss − Store printer settings into a file.
+
+- /Sr − Restore printer settings from a file.
+
+- /y − Set printer as the default.
+
+- /Xg − Get printer settings.
+
+- /Xs − Set printer settings.
+
+Example:
+```bat
+SET PrinterName = Test Printer
+SET file=%TEMP%\Prt.txt
+RUNDLL32.EXE PRINTUI.DLL,PrintUIEntry /Xg /n "%PrinterName%" /f "%file%" /q
+
+IF EXIST "%file%" (
+   ECHO %PrinterName% printer exists
+) ELSE (
+   ECHO %PrinterName% printer does NOT exists
+)
+```
