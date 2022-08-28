@@ -46,3 +46,43 @@ set /p githubpr=Insert your github profile url:
 @echo Hi, %name%, who is %age%. Your github is : %githubpr%
 pause
 ```
+
+## Example #4 - Delete All 
+Deletes All files in the Current Directory With Prompts and Warnings. (Hidden, System, and Read-Only Files are Not Affected) 
+```bat
+@ECHO OFF 
+DEL . 
+DR
+```
+
+## Example #5 - Vars 
+A variable called message is defined and set with the value of "Hello World".
+```bat
+@echo off 
+set message=Hello World 
+echo %message%
+```
+
+## Example #6 - Local vs Global Variables
+Normally, variable having a global scope can be accessed anywhere from a program whereas local scoped variables have a defined boundary in which they can be accessed.
+```bat
+@echo off 
+set globalvar = 5
+SETLOCAL
+set var = 13145
+set /A var = %var% + 5
+echo %var%
+echo %globalvar%
+ENDLOCAL
+```
+
+## Example #7 - Comments
+There are two ways to create comments in Batch Script; one is via the Rem command.
+```bat
+@echo off 
+Rem This program just displays Hello World 
+set message=Hello World 
+echo %message%
+```
+
+
