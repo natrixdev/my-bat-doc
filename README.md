@@ -1,2 +1,26 @@
-# my-bat-doc
-My documentation for .bat files. With scripts exemples.
+<div align="center">
+  <h1>My batchfile documentation & script examples</h1>
+  ![image](https://user-images.githubusercontent.com/88579983/187084796-267a9119-49b0-4399-be53-c304d8693d9b.png)
+  <p>
+      I'm going to explain how to learn the batch through examples that will increase in difficulty and complexity as you go through          this page.
+   </p>
+   <h1>This "documentation" has been produced entirely by <a href="https://github.com/natrixdev">natrix.</a></h1>
+   <br/>
+  </div>
+   <h2>Example #1 - Colors</h2>
+   <p>This example will show you how to change the colour of the text displayed in the console. I will also give you a list of available colours.</p>
+ ```bat
+color a 
+pause 
+```
+<p>For a greeen console<br>Available colours:</p>
+```
+    0 = Black 8 = Grey
+    1 = Blue 9 = Light blue
+    2 = Green A = Light green
+    3 = Blue-grey B = Cyan
+    4 = Red C = Light red
+    5 = Violet D = Light Violet
+    6 = Yellow E = Light yellow
+    7 = White F = Bright White
+```
