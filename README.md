@@ -190,6 +190,12 @@ IF EXIST "%file%" (
 ## Github 
 #### Thanks to github for offering amazing and free services!
 
+### Support Us Please
+
+| Star                                     | Fork                                     |
+| ---------------------------------------- | ---------------------------------------- |
+| ![Star](https://i.imgur.com/41nhvJ1.png) | ![Fork](https://i.imgur.com/MOtHDPV.png) |
+
 # 🚧 MORE COMMING SOON 🚧
 ### Stay tuned, next update very soon!
   
